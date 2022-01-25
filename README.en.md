@@ -37,15 +37,13 @@ no
     It also has a `test` subcommand to check the convertation on the infamous Вопрос-бНОПНЯ and patched examples from [Lurkmore][lurkmore]
 - `translate.sh*` - helper script that runs `main.py` for every translation file in the source directory and places the result in the destination directory \
   Usage example: `./translate.sh source/ dest/`
+- `download.sh*` - helper script that downloads translation files for a specified language \
+  Usage example: `./download.sh ru source/`
 - `README.md` - do I have to explain it?
 - `README.en.md` - English README translation (you are reading this)
 - `README.ru.md` - Russian README translation
 - `source/` - the source translation files (official Russian Telegram translation)
-  - `android.xml`
-  - `android_x.xml`
-  - `ios.strings`
-  - `macos.strings`
-  - `tdesktop.strings`
+  - `.gitkeep`
 - `dest/` - where the generated translation files are supposed to be placed
   - `android.xml`
   - `android_x.xml`
