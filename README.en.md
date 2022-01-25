@@ -43,13 +43,9 @@ no
 - `README.en.md` - English README translation (you are reading this)
 - `README.ru.md` - Russian README translation
 - `source/` - the source translation files (official Russian Telegram translation)
-  - `.gitkeep`
+  - `.gitignore`
 - `dest/` - where the generated translation files are supposed to be placed
-  - `android.xml`
-  - `android_x.xml`
-  - `ios.strings`
-  - `macos.strings`
-  - `tdesktop.strings`
+  - `.gitignore`
 
 ## Credits
 

@@ -43,13 +43,9 @@
 - `README.en.md` - английский перевод README
 - `README.ru.md` - русский перевод README (вы его читаете)
 - `source/` - исходные файлы перевода (официальный русский перевод Telegram)
-  - `.gitkeep`
+  - `.gitignore`
 - `dest/` - директория, в которую должны попадать готовые файлы перевода
-  - `android.xml`
-  - `android_x.xml`
-  - `ios.strings`
-  - `macos.strings`
-  - `tdesktop.strings`
+  - `.gitignore`
 
 ## Благодарности
 
