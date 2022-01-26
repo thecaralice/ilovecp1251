@@ -22,6 +22,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      
+      - name: Install Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
 
       - name: Download source translations
         run: ./download.sh ru source/
