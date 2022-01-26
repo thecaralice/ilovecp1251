@@ -3,6 +3,7 @@
 [![Use in Telegram](https://img.shields.io/static/v1?logo=telegram&label=Use%20in&message=Telegram&color=success)][apply]
 [![Telegram chat](https://img.shields.io/static/v1?logo=telegram&label=Telegram&message=chat&color=blue)](https://t.me/setlanguage/translation_ilovecp1251)
 [![Help translating](https://img.shields.io/static/v1?logo=telegram&label=Help&message=translating&color=important)](https://translations.telegram.org/ilovecp1251/)
+[![build](https://img.shields.io/github/workflow/status/thecaralice/ilovecp1251/Translate?logo=github)][download]
 
 What Russian Telegram translation would look like if it was in Windows-1251 and you read it in KOI8-R
 
@@ -43,7 +44,8 @@ no
 - `README.en.md` - English README translation (you are reading this)
 - `README.ru.md` - Russian README translation
 - `source/` - the source translation files (official Russian Telegram translation)
-- `dest/` - where the generated translation files are supposed to be placed
+- `dest/` - where the generated translation files are supposed to be placed \
+  You can download a version built by Github Actions [here][download].
 
 ## Credits
 
@@ -52,3 +54,4 @@ no
 [apply]: (https://t.me/setlanguage/ilovecp1251)
 [lurkmore]: https://lurkmore.to/БНОПНЯ
 [man-cat-1]: https://linux.die.net/man/1/cat
+[download]: https://nightly.link/thecaralice/ilovecp1251/workflows/translate/mistress/translation.zip
