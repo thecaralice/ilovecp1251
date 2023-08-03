@@ -3,7 +3,7 @@
 [![Use in Telegram](https://img.shields.io/static/v1?logo=telegram&label=Use%20in&message=Telegram&color=success)][apply]
 [![Telegram chat](https://img.shields.io/static/v1?logo=telegram&label=Telegram&message=chat&color=blue)](https://t.me/setlanguage/translation_ilovecp1251)
 [![Help translating](https://img.shields.io/static/v1?logo=telegram&label=Help&message=translating&color=important)](https://translations.telegram.org/ilovecp1251/)
-[![build](https://img.shields.io/github/workflow/status/thecaralice/ilovecp1251/Translate?logo=github)][download]
+[![build](https://img.shields.io/github/actions/workflow/status/thecaralice/ilovecp1251/translate.yml?branch=mistress&logo=github)][download]
 [![License](https://img.shields.io/github/license/thecaralice/ilovecp1251?logo=github)](https://github.com/thecaralice/ilovecp1251/blob/mistress/LICENSE)
 
 What Russian Telegram translation would look like if it was in Windows-1251 and you read it in KOI8-R

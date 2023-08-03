@@ -3,7 +3,7 @@
 [![Использовать в Telegram](https://img.shields.io/static/v1?logo=telegram&label=Использовать%20в&message=Telegram&color=success)][apply]
 [![Telegram чат](https://img.shields.io/static/v1?logo=telegram&label=Telegram&message=чат&color=blue)](https://t.me/setlanguage/translation_ilovecp1251)
 [![Помочь с переводом](https://img.shields.io/static/v1?logo=telegram&label=Помочь&message=с%20переводом&color=important)](https://translations.telegram.org/ilovecp1251/)
-[![build](https://img.shields.io/github/workflow/status/thecaralice/ilovecp1251/Translate?logo=github)][download]
+[![build](https://img.shields.io/github/actions/workflow/status/thecaralice/ilovecp1251/translate.yml?branch=mistress&logo=github)][download]
 [![Лицензия](https://img.shields.io/github/license/thecaralice/ilovecp1251?logo=github)](https://github.com/thecaralice/ilovecp1251/blob/mistress/LICENSE)
 
 Как выглядел бы русский перевод Telegtam, если бы он был в Windows-1251 и прочитан как KOI8-R
