@@ -41,21 +41,24 @@ TRANS: Final = str.maketrans(
 def test():
     assert "Вопрос".translate(TRANS) == "бНОПНЯ"
 
-    # Changed a bit because the original one seems to be invalid
-    # TODO: Send a patch to https://lurkmore.to/БНОПНЯ
+    # From https://lurkmore.to/БНОПНЯ
     LURK_TABLE: Final = """\
 Привет	оПХБЕР
 всем хай	БЯЕЛ УЮИ
 Что такое?	вРН РЮЙНЕ?
+Муси-Пуси	лСЯХ-оСЯХ
+нХУЙ-рХУЙ	Муси-Пуси
 Сергеев	яЕПЦЕЕБ
 С уважением	я СБЮФЕМХЕЛ
 Вопрос читал?	бНОПНЯ ВХРЮК?
 Пиздец	оХГДЕЖ
 Беспредел	аЕЯОПЕДЕК
+нБУФЕТ	Мастер
 КПРФ	йопт
 Единая Россия	еДХМЮЪ пНЯЯХЪ
 Ку	йС
-Как переключить кодировку?	йЮЙ ОЕПЕЙКЧВХРЭ ЙНДХПНБЙС?"""
+хъй	УЗИ
+Как переключать кодировку?	йЮЙ ОЕПЕЙКЧВЮРЭ ЙНДХПНБЙС?"""
     for line in LURK_TABLE.splitlines():
         test, ref = line.split("\t")
         res = test.translate(TRANS)
